@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "672573161716",
+    "project_id": "yokoso-a0411",
+    "storage_bucket": "yokoso-a0411.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672573161716:android:81ac42d648c6c163069ea1",
+        "android_client_info": {
+          "package_name": "com.yokoso"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7XtkqHRw5DL8T0V78RIGkcKvogUks1q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
