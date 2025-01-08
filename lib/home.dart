@@ -11,8 +11,8 @@ class HomePage extends StatelessWidget {
         title: Row(
           children: [
             Image.asset(
-              'assets/KK.png', // Path ke logo
-              height: 32, // Atur ukuran logo
+              'assets/KK.png', // logo
+              height: 32, // ukuran logo
               width: 32,
             ),
             SizedBox(width: 8), // Jarak antara logo dan teks
@@ -33,8 +33,8 @@ class HomePage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: Image.asset(
-              'assets/kuliner.png', // Path ke logo
-              height: 100, // Ukuran tinggi logo
+              'assets/kuliner.png', // logo 2
+              height: 100, // logo 2
               fit: BoxFit.contain,
             ),
           ),
@@ -96,13 +96,13 @@ class HomePage extends StatelessWidget {
           actions: [
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop(); // Tutup dialog
+                Navigator.of(context).pop();
               },
               child: Text('Batal'),
             ),
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop(); // Tutup dialog
+                Navigator.of(context).pop(); 
                 Navigator.of(context).pushReplacementNamed('/login'); // Navigasi ke halaman login
               },
               child: Text('Logout'),
